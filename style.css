@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(127, 195, 218, 0.774);
+  margin: 50px 400px 0 400px;
+  border-radius: 20px;
+  background-image: url("image/backcat.jpg");
+  background-size: 1100px;
+}
+
+.container {
+  padding: 10px 0 50px 0;
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ece7e7), to(rgba(30, 143, 255, 0.897)));
+  background: linear-gradient(#ece7e7, rgba(30, 143, 255, 0.897));
+}
+
+.container .Title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+.container .Title .Greater {
+  color: #ec700b;
+}
+
+.container .Title .place_indicator {
+  color: rgba(0, 0, 0, 0.781);
+}
+
+.container .Title .The {
+  color: #df2727;
+}
+
+.container .Title .Animal {
+  color: #c03c08;
+}
+
+.container .Title .World {
+  color: #2f61be;
+}
+
+.container #Cat {
+  -webkit-transform: translateX(260px);
+          transform: translateX(260px);
+  padding-top: 30px;
+}
+
+#inputs {
+  padding: 8px 12px 8px 12px;
+  -webkit-transition: border-width 0.6s linear;
+  transition: border-width 0.6s linear;
+}
+
+#inputs input:first-of-type {
+  background-color: rgba(255, 255, 255, 0.774);
+  padding: 8px 25px 8px 20px;
+  margin: 10px 0 0 150px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgba(68, 66, 66, 0.582);
+}
+
+#inputs input:nth-of-type(2) {
+  background-color: rgba(255, 255, 255, 0.774);
+  padding: 8px 25px 8px 20px;
+  margin: 30px 0 0 150px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgba(68, 66, 66, 0.582);
+}
+
+#inputs #input input:first-of-type:nth-of-type(2), #inputs input:focus {
+  border-color: blue;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-box-shadow: 1px 0 1px #050552;
+          box-shadow: 1px 0 1px #050552;
+}
+
+#inputs ::-webkit-input-placeholder {
+  color: rgba(97, 97, 97, 0.822);
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+#inputs :-ms-input-placeholder {
+  color: rgba(97, 97, 97, 0.822);
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+#inputs ::-ms-input-placeholder {
+  color: rgba(97, 97, 97, 0.822);
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+#inputs ::placeholder {
+  color: rgba(97, 97, 97, 0.822);
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+#inputs form {
+  margin-top: 10px;
+  border: none;
+}
+
+#inputs label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+}
+button[type="submit"] {
+  border: none;
+  outline: none;
+  padding: 10px 20% 10px 20%;
+  margin: 30px 0 0 160px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #2f61be;
+  cursor: pointer;
+}
+#SignUP {
+  text-align: center;
+  margin-left: 25px;
+  transform: translateY(25px);
+}
+span {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  color: #c03c08;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.row:after {
+  content: "";
+  clear: both;
+}
+/*# sourceMappingURL=style.css.map */

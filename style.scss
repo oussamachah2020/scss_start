@@ -1,0 +1,95 @@
+$Position: center;
+$Background: rgba(127, 195, 218, 0.774);
+$Family:  Verdana, Geneva, Tahoma, sans-serif; 
+$Padding: 8px 12px 8px 12px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $Background;
+    margin: 50px 400px 0 400px;
+    border-radius: 20px;
+    background-image: url('image/backcat.jpg');
+    background-size: 1100px;
+}
+.container {
+    padding: 10px 0 60px 0;
+    border-radius: 20px;
+    background: linear-gradient(rgb(236, 231, 231),rgba(30, 143, 255, 0.897));
+    
+    .Title {
+        text-align: $Position;
+        font-family: $Family;
+        font-size: 30px;
+    
+        .Greater {
+            color: rgb(236, 112, 11);
+        }
+        .place_indicator {
+            color: rgba(0, 0, 0, 0.781);
+        }
+        .The {
+            color: rgb(223, 39, 39);
+        }
+        .Animal {
+            color: rgb(192, 60, 8);
+        }
+        .World {
+            color: rgb(47, 97, 190);
+        }
+    }
+    #Cat {
+        transform: translateX(260px);
+        padding-top: 30px
+    };
+}
+
+#inputs {
+    padding: $Padding;
+    transition: border-width 0.6s linear;
+
+    input:first-of-type {
+        background-color: rgba(255, 255, 255, 0.774);
+        padding: 8px 25px 8px 20px;
+        margin: 10px 0 0 150px;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid rgba(68, 66, 66, 0.582);
+    }
+
+    input:nth-of-type(2) {
+        background-color: rgba(255, 255, 255, 0.774);
+        padding: 8px 25px 8px 20px;
+        margin: 30px 0 0 150px;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid rgba(68, 66, 66, 0.582);
+    }
+
+    #input input:first-of-type:nth-of-type(2),input:focus {
+        border-color: blue;
+        transition: .4s;
+        animation-direction: normal;
+        box-shadow: 1px 0 1px rgb(5, 5, 82);
+    }
+
+    ::placeholder {
+        color: rgba(97, 97, 97, 0.822);
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+
+    form {
+        margin-top: 10px;
+        border: none;
+    }
+
+    label {
+        font-family: $Family;
+        font-style: oblique;
+    }
+}
